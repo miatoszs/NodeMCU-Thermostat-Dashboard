@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/css/master.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <h1>Termosztát</h1>
+
+  <p>
+
+    <span class="dht-labels">Aktuális hőfok:</span>
+    <span id="tempreature">fff</span>
+    <sup class="units"></sup>
+  </p>
+  <div id="tempValue"><span id="setTemp"></span>°C</div>
+  <div class="sliderKeret">
+      <input type="range" min="0" max="40" id="slider" class="slider" onchange="temprit(this.value)">
+  </div>
+  <script type="module" src="./main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #004d86
+}
+.sliderKeret, #tempValue{
+  width: 100%;
+  height: 70px;
+  background: transparent;
+  box-shadow: 8px 8px 26px #0c1426,
+              -8px 8px 26px #0c1426;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  color: #7cc7ff;
+  font-weight: 800;
+  margin: 3;
+  font-size: 50px
+}
+p{
+  color: #7cc7ff;
+  font-weight: 800;
+  margin: 30;
+  font-size: 20px
+}
+#tempValue{
+  width: 170px;
+  height: 70px;
+  font-weight: 800;
+  margin: 3;
+  margin-bottom:20px;
+  font-size:50px;
+  font-family:"Raleway";
+  text-align:center;
+  color:#7cc7ff;
+}
+
+
+.slider{
+  width: 97%;
+  height: 40px;
+  background: linear-gradient(90deg, blue, dodgerblue, yellow, red );
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 30px;
+  outline: none;
+}
+
+.slider::-moz-range-thumb {
+  width: 50px;
+  height: 50px;
+  border-radius:100%;
+  background-color: #004d86;
+   }
